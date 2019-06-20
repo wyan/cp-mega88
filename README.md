@@ -1,7 +1,7 @@
 # CP/Mega88
 
 ## What is this?
-This is an i8080 emulator running on ATmega88, and on which CP/M can run. Also, it can be built as a UEFI application that can run on x86_64 platforms without any operating system.
+This is an i8080 emulator on which CP/M can run. The emulator can run on a variety of embedded platforms (ATmega88, ATmega32u8, esp32 in progress), as a POSIX binary, or it can be built as a UEFI application that can run on x86_64 platforms without any operating system.
 
 ## Specification
 to be written
