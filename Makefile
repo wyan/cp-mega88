@@ -37,6 +37,7 @@ usage:
 	@echo "    all            ... build all following targets"
 	@echo "    atmega32u2     ... build firmware for ATmega32u2"
 	@echo "    atmega88       ... build firmware for ATmega88"
+	@echo "    esp32          ... build firmware for esp32"
 	@echo "    posix          ... build application for posix compatible host"
 	@echo "    nacl           ... build for both i686-nacl and x86_64-nacl"
 	@echo "    nacl32         ... build for i686-nacl"
@@ -49,7 +50,7 @@ usage:
 	@echo "    clean          ... delete all generated files"
 	@echo "    distclean      ... delete all generated and downloaded files"
 
-all: atmega32u2 atmega88 posix nacl32 nacl64 uboot_ac100 uboot_qemu_arm \
+all: atmega32u2 atmega88 esp32 posix nacl32 nacl64 uboot_ac100 uboot_qemu_arm \
 	uboot_rpi uefi
 
 nacl: nacl32 nacl64
